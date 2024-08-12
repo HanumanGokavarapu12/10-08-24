@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div>
+            <center><h2>HTML</h2></center>
+            <h3>1. What is the difference between div and span ?</h3>
+            <p>Ans. Span and div are both generic HTML elements that group together related parts of a web page. However, they serve different functions. A div element is used for block-level organization and styling of page elements, whereas a span element is used for inline organization and styling.</p>
+            
+            <h3>2. What are the Sematic Elements in HTML ?</h3>
+            <p>Ans. semantic element clearly describes its meaning to both the browser and the developer. 
+                Examples of non-semantic elements: &lt;div&gt; and &lt;span&gt; - Tells nothing about its content. 
+                Examples of semantic elements: &lt;form&gt; , &lt;table&gt; , and &lt;article&gt; - Clearly defines its content</p>
+            
+            <h3>3. What is the difference between href attribute and SRC attribute ?</h3>
+            <p>Ans. The href attribute specifies the location (URL) of a resource, that an anchor element points to, or the location of a linked resource, like a stylesheet. While the src attribute is used to embed a resource - usually URLs - into a document, think embedded images (&lt;img&gt;) and &lt;script&gt; tags.</p>
+            
+            <h3>4. What is the difference between XML and HTML ?</h3>
+            <p>Ans. :HTML is commonly known as the language of the web. HTML's primary purpose is to display content, given in a text-based document, in a graphical form in the browser. In contrast, XML allows different applications to exchange and store data and its structure in a way that is universally understood.</p>
+            
+            <h3>5. What are list tags and how many are there with syntax ?</h3>
+            <p>Ans. The &lt;li&gt; element is used to represent an item in a list. It must be contained in a parent element: an ordered list (&lt;ol&gt;), an unordered list (&lt;ul&gt;), or a menu (&lt;menu&gt;). In menus and unordered lists, list items are usually displayed using bullet points.</p>
+            
+            <h3>6. Create i frame where a single iframe can opens multiple limks in it ?</h3>
+            Ans.
+            <pre>
+                &lt;a href="https://thumbs.dreamstime.com/b/young-conceptual-image-large-stone-shape-human-brain-conceptual-image-large-stone-shape-110748113.jpg" target="frame"&gt;image&lt;/a&gt;
+                &lt;a href="https://www.youtube.com/embed/YFZMBqyXkqQ?si=UyGn7pkVZigWy-s3" target="frame"&gt;trailer&lt;/a&gt;
+                &lt;a href="https://ashokmadagoni.github.io/quotations/day6task.html" width="400" heigt="400" target="frame"&gt;html file&lt;/a&gt;
+                &lt;a href="./textfile.txt" target="frame"&gt;textfile&lt;/a&gt;
+                &lt;iframe src="" frameborder="1" name="frame" scrolling="yes" width="400" height="400" allowfullscreen&gt;&lt;/iframe&gt;
+            </pre>
+            
+            <h3>7. Create a register form using name, email, age, privacy policies, submit & do validations ?</h3>
+            Ans.
+            <pre>
+                &lt;form action=""&gt;
+                &lt;label for="name"&gt;name&lt;/label&gt;
+                &lt;input type="text" id="name"&gt;
+                &lt;label for="email"&gt;email&lt;/label&gt;
+                &lt;input type="email" id="email"&gt;
+                &lt;label for="age"&gt;Age&lt;/label&gt;
+                &lt;input type="age" id="age"&gt;
+                &lt;p&gt;Privacy policy&lt;/p&gt;
+                &lt;input type="button" value="submit"&gt;
+                &lt;/form&gt;
+            </pre>
+        <hr>
+        <div>
+            <center><h2>Git & Git Hub</h2></center>
+            <h3>1. What is command for connection local repo & git hub repo ?</h3>
+            <p>Ans. git remote add origin <remote-repository-URL></remote-repository-URL></p>
+            
+            <h3>2. Git command to change the dictionary of local folder ?</h3>
+            <p>Ans. cd path/to/your/directory</p>
+            
+            <h3>3. Git command to check the commits on the project ?</h3>
+            <p>Ans. git log --oneline</p>
+            
+            <h3>4. Git command for pushing all the code to ravi branch ?</h3>
+            <p>Ans. git push origin ravi</p>
+            
+            <h3>5. Difference between the pull and push command in git ?</h3>
+            <p>Ans. git pull: Fetches changes from the remote repository and merges them into your current branch. It updates your local repository with changes from the remote repository. <br>
+                git push: Uploads your local commits to the remote repository. It updates the remote branch with your local commits.</p>
+            
+            <h3>6. Command to check the no of branches and command to switch the branche ?</h3>
+            <p>Ans. git branch <br>
+                git checkout branch-name</p>
+            
+            <h3>7. What are the stages of our project to reach to github repo ?</h3>
+            <p>Ans. :git init <br>
+                git add . <br>
+            git commit -m "text" <br>
+            git remote add origin repopathlink <br>
+            git branch -M main <br>
+            git push origin main</p>
+            
+            <h3>8. The commands which we use in Staging area ?</h3>
+            <p>Ans. git add . <br>
+                git commit -m " a messege what you want to write"</p>
+        </div>
+    </div>
+</body>
+</html>
